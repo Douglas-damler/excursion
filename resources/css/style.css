@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    width: 98%;
+}
+
+#header, #link, #video, #image, #title, #message, #bottom {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#link a, #bottom a {
+    color: aqua;
+}
+
+#title h1, #bottom h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+#video video {
+    width: auto;
+}
+
+#image img {
+    width: 80%;
+}
+
+#message p {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+}
+
+#footer {
+    text-align: right;
+}
+
+#footer p {
+    color: gray;
+}
+
